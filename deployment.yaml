@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sit737-task6p-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sit737-task6p-app
+  template:
+    metadata:
+      labels:
+        app: sit737-task6p-app
+    spec:
+      containers:
+      - name: sit737-task6p-container
+        image: sit737-task6p-app
+        imagePullPolicy: Never  # Because we're using local image
+        ports:
+        - containerPort: 3000

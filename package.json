@@ -1,0 +1,22 @@
+{
+  "name": "sit737-2025-prac6pa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritamrao/sit737-2025-prac6p.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritamrao/sit737-2025-prac6p/issues"
+  },
+  "homepage": "https://github.com/ritamrao/sit737-2025-prac6p#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
