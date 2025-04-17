@@ -104,9 +104,3 @@ kubectl apply -f service.yaml
 Access at: `http://localhost:30036`
 
 ---
-
-## Author
-
-**Name:** Ritam Rao  
-**Unit:** SIT737  
-**Trimester:** T1 2025  
